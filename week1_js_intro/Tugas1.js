@@ -36,6 +36,10 @@ const biodata = {
         {
             skillName: "Bootstrap",
             level : "beginner"
+        },
+        {
+            skillName: "Javascript",
+            level : "beginner"
         }
     ],
     interestInCoding : true
