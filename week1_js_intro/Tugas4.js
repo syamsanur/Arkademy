@@ -4,19 +4,19 @@ let data = {
     username: "Bret",
     email: "Sincere@april.biz",
     address: 
-    {
-    street: "Kulas Light",
-    suite: "Apt. 556",
-    city: "Gwenborough",
-    zipcode: "92998-3874",
-    },
+        {
+        street: "Kulas Light",
+        suite: "Apt. 556",
+        city: "Gwenborough",
+        zipcode: "92998-3874",
+        },
     phone: "1-770-736-8031 x56442",
     website: "hildegard.org",
     }
 
 //console.log(data)
 
-let spread = {...data, name :"Raden Syamsa Nur Ashari Mahmud", email:"syamsanur0@gmail.com", hobby: "travelling, gaming"};
+let spread = {...data, name :"Raden Syamsa Nur Ashari Mahmud", email:"syamsanur0@gmail.com", hobby: "travelling"};
 
 console.log(spread)
 

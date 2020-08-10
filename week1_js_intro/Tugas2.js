@@ -1,20 +1,21 @@
-let bIndo =56
-let bIng =45
-let mtk =56
-let ipa =78
+let bIndo =79
+let bIng = 76.9
+let mtk = 87.3
+let ipa = 76
 
 let total = null
 let nilai = null
 let grade
 
 //console.log(typeof (bIng || bIndo || mtk || ipa) )
-console.log(typeof (bIng && bIndo && mtk && ipa) )
+//console.log(typeof (bIng && bIndo && mtk && ipa) )
 
 
-if(typeof (bIng && bIndo && mtk && ipa) === 'number' ) {
+if(typeof (bIng && bIndo && mtk && ipa) == 'number' ) {
 
     total = bIng+bIndo+mtk+ipa
     nilai = total/4
+    nilai = parseInt(nilai)
 
     if(nilai <=100 && nilai >=90){
         grade= "A"

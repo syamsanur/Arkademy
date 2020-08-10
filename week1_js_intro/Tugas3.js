@@ -1,4 +1,4 @@
-let angka
+
 
 printSegitiga = (angka) =>{
 if(isNaN(angka)){
@@ -14,11 +14,11 @@ if(isNaN(angka)){
 }
 }
 
-printSegitiga(5);
+printSegitiga("asdaf");
 
 
 /*
-i   j   true/false?   num 
+i   j   true/false?   baris 
 5   1   true           1
 5   2   true           12
 5   5   true           12345
@@ -26,6 +26,7 @@ i   j   true/false?   num
 
 4   1   true           1
 4   2   true           12
+4   5   false
 
 1   1   true           1
 
