@@ -12,4 +12,4 @@ seleksiNilai =(nilaiAwal, nilaiAkhir, dataArray) => {
     }
 }
 
-seleksiNilai(1,2,[9,6,1,7,4,2])
+seleksiNilai(1,5,[8,2,9,5,1,4,3])
