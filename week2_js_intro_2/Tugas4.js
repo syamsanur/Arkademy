@@ -1,11 +1,5 @@
 const fetch = require("node-fetch");
 
-var WebSocketServer = require('websocket').server;
-var WebSocketClient = require('websocket').client;
-var WebSocketFrame  = require('websocket').frame;
-var WebSocketRouter = require('websocket').router;
-var W3CWebSocket = require('websocket').w3cwebsocket;
-
 const url = "https://jsonplaceholder.typicode.com/users/"; //buat tambah error tambah 1000 d belakang
 
 fetch(url)
