@@ -23,7 +23,7 @@ fetch(url)
 //         name = hasil.map(i=> i.name)
 //         console.log(name)
 //     }catch(err){
-//         console.log("wat?")
+//         console.log("error")
 //     }
 // }
 
