@@ -1,5 +1,12 @@
 const fetch = require("node-fetch");
-const url = "https://jsonplaceholder.typic.com/users";
+
+var WebSocketServer = require('websocket').server;
+var WebSocketClient = require('websocket').client;
+var WebSocketFrame  = require('websocket').frame;
+var WebSocketRouter = require('websocket').router;
+var W3CWebSocket = require('websocket').w3cwebsocket;
+
+const url = "https://jsonplaceholder.typicode.com/users/1000";
 
 fetch(url)
   .then((res) => res.json())
@@ -18,10 +25,12 @@ fetch(url)
 // }
 
 // printData = async () =>{
+//   console.log("test debug chrome")
+//   const hasil = await fetchData(url) //hasil tunggu proses fetch
 //     try{
-//         const hasil = await fetchData(url) //hasil tunggu proses fetch
 //         name = hasil.map(i=> i.name)
 //         console.log(name)
+        
 //     }catch(err){
 //         console.log("error")
 //     }
@@ -30,4 +39,4 @@ fetch(url)
 // printData()
 
   
-  
+    
