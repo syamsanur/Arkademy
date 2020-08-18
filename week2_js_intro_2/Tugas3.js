@@ -1,6 +1,6 @@
 const satu = (num) =>{
     return new Promise((resolve, reject)=>{
-        if(num % 2 ==0){
+        if(num % 2 == 0){
             resolve("genap")
         }else{
             reject("ganjil")
@@ -8,9 +8,11 @@ const satu = (num) =>{
     })
 }
 
-satu(5)
-    .then(res => console.log(res))
-    .catch(res => console.log(res))
+// satu(5)
+//     .then(res => console.log(res))
+//     .catch(res => console.log(res))
+
+
 
 
 const beli = (x) => {
@@ -18,13 +20,13 @@ const beli = (x) => {
         //catatan saya stuck nyari nama produk jd saya ganti dengan lirik
         {
             id:1,
-            namaProduk:"Surti remajah anak bapak kades....",
+            namaProduk:"Shofira remajah anak bapak kades....",
             harga:8000,
             jumlah:1
         },
         {
             id:2,
-            namaProduk:"(Dan) si Tedjo jejaka baruuuuuh aja mudik...",
+            namaProduk:"(Dan) si Rido jejaka baruuuuuh aja mudik...",
             harga:1000,
             jumlah:1
         },
@@ -36,6 +38,7 @@ const beli = (x) => {
         },     
     ]
     
+
     let hasil = barang.filter(e=> e.id == x)
     return hasil
     // let[{namaProduk, jumlah}]=hasil
@@ -48,15 +51,16 @@ const bayar = async (x) =>{
     let hasil = await beli(x)
     setTimeout(() => {
         try{
+            //console.log(hasil)
             let [{namaProduk,jumlah,harga}] = hasil
             //console.log(namaProduk)
             let total = jumlah * harga
             console.log(`Pembelian ${namaProduk} totalnya menjadi ${total} Rupiah`)
         }catch{
-            console.log(`Barang (Surti atau Tedjo atau mereka Berdua) tidak ditemukan`)
+            console.log(`Error`)
         }    
-    }, 3000);
+    }, 2000);
     
 }
 
-//bayar(4)
+bayar("tigas")

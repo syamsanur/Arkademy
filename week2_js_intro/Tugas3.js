@@ -19,4 +19,4 @@ seleksiNumber = (nilaiAwal,nilaiAkhir,dataArray) =>{
      console.log(hasil)
 }
 
-seleksiNumber(1,5,[2,3,6,1,5,8,9,1,2,5,3,4])
+seleksiNumber(10,5,[1,2,3,4])

@@ -1,6 +1,6 @@
 const getMonth = (callback) => {
   setTimeout(() => {
-    let error = false;
+    let error = true;
     let month = [
       "Januari",
       "Februari",
@@ -18,7 +18,7 @@ const getMonth = (callback) => {
     if (!error) {
       callback(null, month);
     } else {
-      callback(new Error("sorry data ga ada", []));
+      callback(new Error("sorry data tidak ditemukan", []));
     }
   }, 1000);
 };

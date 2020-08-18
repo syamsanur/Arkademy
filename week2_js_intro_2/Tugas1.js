@@ -14,22 +14,22 @@ const cekHariKerja = (day) => {
   });
 };
 
-cekHariKerja('rabu')
+//cekHariKerja('rabu')
 
-    .then((cek) => {
-        console.log(cek)
-    })
-    .catch((err) => {
-        console.log(err.message)
-    });
+    // .then((cek) => {
+    //     console.log(cek)
+    // })
+    // .catch((err) => {
+    //     console.log(err.message)
+    // });
 
-// const cekHariKerja2 = async (day) => {
-//   try {
-//     const i = await cekHariKerja(day);
-//     console.log(i);
-//   }catch (err) {
-//     console.log(err.message);
-//   }
-// };
+const cekHariKerja2 = async (day) => {
+  try {
+    const i = await cekHariKerja(day);
+    console.log(i);
+  }catch (err) {
+    console.log(err.message);
+  }
+};
 
-// cekHariKerja2("senin");
+cekHariKerja2("ghjkl");

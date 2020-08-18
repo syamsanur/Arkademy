@@ -1,4 +1,4 @@
-let q =[5,1,2,4]
+let q =[5,1,2,4,3]
 let a = "aSdf ghj"
 
 //1 map buat dulpikat array berdasarkan kondisi yang d tentukan

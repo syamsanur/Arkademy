@@ -14,7 +14,7 @@ if(isNaN(angka)){
 }
 }
 
-printSegitiga("asdaf");
+printSegitiga("5");
 
 
 /*
