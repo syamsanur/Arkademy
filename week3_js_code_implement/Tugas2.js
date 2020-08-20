@@ -5,8 +5,8 @@ reverserKata = (kata) => {
 ${hasil}`)
         
     }else{
-        console.log("kalimat harus string")
+        console.log("kata harus string")
     } 
 }
 
-reverserKata("Saya Suka Javascript")
+reverserKata(12435)

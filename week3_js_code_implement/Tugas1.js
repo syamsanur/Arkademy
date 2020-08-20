@@ -6,12 +6,10 @@ cekPalindrome = (kata) =>{
         
         let palin= kata2.split('').reverse().join('')
 
-        //console.log(` ${kata2}, ${palin}`)
-
         if(kata2 === palin){
-            console.log(`${kata2} merupakan palindrome`)
+            console.log(`${kata} merupakan palindrome`)
         }else{
-            console.log(`${kata2} bukan merupakan palindrome`)
+            console.log(`${kata} bukan merupakan palindrome`)
         }
 
     }else{
@@ -19,6 +17,6 @@ cekPalindrome = (kata) =>{
     }
 }
 
-cekPalindrome("malam")
+cekPalindrome(12556)
 
  
